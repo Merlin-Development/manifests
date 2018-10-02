@@ -1,6 +1,19 @@
+#!/usr/bin/env bash
 
 TOP=${PWD}
 . build/envsetup.sh
+
+#############################################################
+# VARIABLES                                                 #
+#############################################################
+
+PATCH1=https://github.com/Merlin-Development/manifests/raw/lineage-16.0/0001-DNM-libqsap_sdk-Suppress-warnings.patch
+
+#############################################################
+# DOWNLOADS                                                 #
+#############################################################
+
+curl  -L -o 0001-DNM-libqsap_sdk-Suppress-warnings.patch -O -L $PATCH1
 
 #############################################################
 # PATCHES                                                   #
