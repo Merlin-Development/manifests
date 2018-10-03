@@ -111,7 +111,7 @@ curl --create-dirs -L -o .repo/local_manifests/merlin.xml -O -L $MANIFESTURL
 echo "Syncing sources"
 repo_sync
 echo "Patching"
-curl $PATCHSCRIPT
+curl $PATCHSCRIPT -o patch.sh
 chmod +x patch.sh
 ./patch.sh
 echo "Building"
