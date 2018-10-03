@@ -20,9 +20,13 @@ Build Instructions (Whith Scripts)
 ----------------------------------
 
 Just run
+
 	./build.sh
+
 or
+
 	./build-auto.sh
+	
 to build lineage 16.0
 
 
