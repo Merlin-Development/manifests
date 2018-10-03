@@ -16,6 +16,16 @@ Download
 
 My current builds are available [here]().
 
+Build Instructions (Whith Scripts)
+----------------------------------
+
+Just run
+	./build.sh
+or
+	./build-auto.sh
+to build lineage 16.0
+
+
 Build Instructions
 ------------------
 Create a build directory
